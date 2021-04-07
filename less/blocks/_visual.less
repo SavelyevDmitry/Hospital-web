@@ -1,0 +1,111 @@
+.visual{
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    position: relative;
+
+    background-image: url("../img/visual/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    // Планшет
+    @media (min-width: 768px){
+        padding-top: 135px;
+        padding-bottom: 110px;
+    }
+}
+
+.visual__wrap{
+    position: relative;
+    z-index: 5;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    // Планшет
+    @media (min-width: 768px){
+        flex-direction: row;
+    }
+}
+
+.visual__img-wrap{
+    margin-right: 10px;
+    margin-bottom: 40px;
+
+    // Планшет
+    @media (min-width: 768px){
+        margin-bottom: 0;
+    }
+}
+
+.visual__info-wrap{
+    max-width: 70%;
+
+    font-size: 22px;
+    font-weight: 500;
+
+    p{
+        text-align: center;
+    }
+
+    // Планшет
+    @media (min-width: 768px){
+        font-size: 24px;
+        max-width: 40%;
+    }
+
+    // Десктоп (Маленький)
+    @media (min-width: 1050px){
+        font-size: 26px;
+    }
+
+    // Десктоп (Большой)
+    @media (min-width: 1600px){
+        font-size: 28px;
+    }
+}
+
+.visual__buttons-wrap{
+    margin-top: 45px;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    // Десктоп (Маленький)
+    @media (min-width: 1050px){
+        margin-left: 30px;
+        display: block;
+    }
+
+    // Десктоп (Большой)
+    @media (min-width: 1600px){
+        margin-top: 70px;
+    }
+}
+
+.header__info-sign--visual{
+    
+    // Планшет
+    @media (min-width: 768px){
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    // Десктоп (Маленький)
+    @media (min-width: 1050px){
+        margin-right: 35px;
+        margin-bottom: 0;
+    }
+
+    // Десктоп
+    @media (min-width: 1200px){
+        margin-right: 55px;
+    }
+
+}

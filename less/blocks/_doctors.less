@@ -1,17 +1,64 @@
 .doctors{
-    padding-top: 130px;
-    padding-bottom: 175px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     color: #303030;
+
+    // Планшет
+    @media (min-width: 768px){
+
+    }
+
+    // Десктоп (Маленький)
+    @media (min-width: 1050px){
+
+    }
+
+    // Десктоп
+    @media (min-width: 1200px){
+
+    }
+
+    // Десктоп (Большой)
+    @media (min-width: 1600px){
+        padding-top: 130px;
+        padding-bottom: 175px;
+    }
 }
 
 .doctors__title-wrap{
-    margin-bottom: 120px;
+    margin-bottom: 90px;
+    text-align: center;
+
+    // Планшет
+    @media (min-width: 768px){
+        text-align: unset;
+    }
+
+    // Десктоп (Маленький)
+    @media (min-width: 1050px){
+        margin-bottom: 90px;
+    }
+
+    // Десктоп
+    @media (min-width: 1200px){
+
+    }
+
+    // Десктоп (Большой)
+    @media (min-width: 1600px){
+        margin-bottom: 120px;
+    }
 }
 
 .doctors__list{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+
+    // Планшет
+    @media (min-width: 768px){
+        justify-content: space-between;
+    }
 
     // Десктоп (Маленький)
     @media (min-width: 1050px){
@@ -20,16 +67,35 @@
 }
 
 .doctors__list-item{
-    max-width: 47%;
+    max-width: 100%;
+    margin-bottom: 75px;
 
-    &:first-child{
-        margin-bottom: 75px;
+    &:last-child{
+        margin-bottom: 0;
+    }
+
+    // Планшет
+    @media (min-width: 768px){
+        max-width: 47%;
+
     }
 
     // Десктоп (Маленький)
     @media (min-width: 1050px){
         max-width: 29%;
+        margin-bottom: 0;
     }
+
+    // Десктоп
+    @media (min-width: 1200px){
+
+    }
+
+    // Десктоп (Большой)
+    @media (min-width: 1600px){
+
+    }
+
 }
 
 .doctors__list-img{
@@ -38,7 +104,7 @@
 
     // Планшет
     @media (min-width: 768px){
-        max-height: 410px;
+        max-height: 340px;
     }
 
     // Десктоп (Маленький)

@@ -1,7 +1,238 @@
 .footer{
-    padding-top: 110px;
+    padding-top: 60px;
     padding-bottom: 50px;
 
+    font-size: 14px;
+    font-weight: 600;
     background-color: #202020;
     color: #bababa;
+
+    // Планшет
+    @media (min-width: 768px){
+
+    }
+
+    // Десктоп (Маленький)
+    @media (min-width: 1050px){
+        font-size: 18px;
+        padding-top: 110px;
+    }
+
+    // Десктоп
+    @media (min-width: 1200px){
+
+    }
+
+    // Десктоп (Большой)
+    @media (min-width: 1600px){
+
+    }
+}
+
+.footer__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__info{
+    padding-bottom: 50px;
+    margin-bottom: 35px;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    &::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 3px;
+        background-color: #babababd;
+    }
+
+    // Планшет
+    @media (min-width: 768px){
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    // Десктоп (Маленький)
+    @media (min-width: 1050px){
+        padding-bottom: 80px;
+        margin-bottom: 45px;
+    }
+
+    // Десктоп
+    @media (min-width: 1200px){
+
+    }
+
+    // Десктоп (Большой)
+    @media (min-width: 1600px){
+
+    }
+}
+
+.footer__title{
+    margin-bottom: 25px;
+
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+
+    // Планшет
+    @media (min-width: 768px){
+        font-size: 18px;
+        margin-bottom: 35px;
+
+    }
+
+    // Десктоп (Маленький)
+    @media (min-width: 1050px){
+        font-size: 22px;
+        margin-bottom: 45px;
+    }
+
+    // Десктоп
+    @media (min-width: 1200px){
+
+    }
+
+    // Десктоп (Большой)
+    @media (min-width: 1600px){
+        
+    }
+}
+
+.footer__about{
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+
+    max-width: 500px;
+    width: 100%;
+
+    p{
+        line-height: 1.7;
+    }
+
+    // Планшет
+    @media (min-width: 768px){
+        max-width: 32%;
+        width: unset;
+        margin-bottom: 0;
+    }
+}
+
+.footer__about-contacts{
+    margin-bottom: 0;
+
+    display: flex;
+    justify-content: space-between;
+
+    p{
+        max-width: 40%;
+    }
+}
+
+.footer__tags{
+    margin-bottom: 30px;
+
+    max-width: 500px;
+    width: 100%;
+
+    p{
+        line-height: 1.7;
+        margin-bottom: 10px;
+    }
+
+    // Планшет
+    @media (min-width: 768px){
+        margin-bottom: 0;
+
+        max-width: 26%;
+        width: unset;
+    }
+}
+
+.footer__appointment{
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    max-width: 500px;
+    width: 100%;
+
+    p{
+        line-height: 1.7;
+    }
+
+    // Планшет
+    @media (min-width: 768px){
+        margin-bottom: 0;
+        
+        max-width: 31%;
+        width: unset;
+    }
+}
+
+.footer__appointment-info{
+    max-width: 60%;
+}
+
+.footer__appointment-contacts{
+    margin-bottom: 10px;
+
+    max-width: 40%;
+    align-self: flex-end;
+}
+
+.footer__social-list{
+    display: flex;
+}
+
+.footer__social-list-item{
+    margin-right: 50px;
+
+    color: #bababa;
+    font-size: 30px;
+
+    a{
+        &:visited{
+            color: #bababa;
+        }
+    }
+
+    &:last-child{
+        margin-right: 0;
+    }
+
+    // Планшет
+    @media (min-width: 768px){
+
+    }
+
+    // Десктоп (Маленький)
+    @media (min-width: 1050px){
+        font-size: 38px;
+    }
+
+    // Десктоп
+    @media (min-width: 1200px){
+
+    }
+
+    // Десктоп (Большой)
+    @media (min-width: 1600px){
+
+    }
 }

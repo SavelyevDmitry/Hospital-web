@@ -1,17 +1,23 @@
 .posts{
-    padding-top: 115px;
+    padding-top: 60px;
     padding-bottom: 60px;
 
     background-color: rgb(249, 245, 245);
     color: #181818;
+
+    // Планшет
+    @media (min-width: 768px){
+        padding-top: 115px;
+    }
 }
 
 .posts__title-wrap{
-    margin-bottom: 95px;
+    margin-bottom: 65px;
     text-align: center;
 
     // Планшет
     @media (min-width: 768px){
+        margin-bottom: 95px;
         text-align: unset;
     }
 }
@@ -91,6 +97,24 @@
         &:last-child{
             margin-bottom: 0;
         }
+    }
+}
+
+.posts__list-info-date{
+    display: flex;
+    align-items: center;
+
+    i{
+        margin-right: 5px;
+    }
+}
+
+.posts__list-info-comments{
+    display: flex;
+    align-items: center;
+
+    i{
+        margin-right: 5px;
     }
 }
 

@@ -12,7 +12,7 @@
 <body>
 
     <!-- Header -->
-    <header class="header none" >
+    <header class="header" id="header">
 
         <!-- Container -->
         <div class="container">
@@ -31,13 +31,12 @@
                 </div>
 
                 <ul class="header__menu">
-                    <li class="header__menu-item"> <a href="#">Home</a> </li> 
-                    <li class="header__menu-item"> <a href="#">About us</a> </li> 
-                    <li class="header__menu-item"> <a href="#">Service</a> </li> 
-                    <li class="header__menu-item"> <a href="#">Doctors</a ></li> 
-                    <li class="header__menu-item"> <a href="#">Departments</a> </li> 
-                    <li class="header__menu-item"> <a href="#">Blog</a> </li>
-                    <li class="header__menu-item"> <a href="#">Contacts</a> </li> 
+                    <li class="header__menu-item"> <a href="#header">Home</a> </li> 
+                    <li class="header__menu-item"> <a href="#about">About us</a> </li> 
+                    <li class="header__menu-item"> <a href="#services">Service</a> </li> 
+                    <li class="header__menu-item"> <a href="#doctors">Doctors</a ></li> 
+                    <li class="header__menu-item"> <a href="#packageService">Departments</a> </li> 
+                    <li class="header__menu-item"> <a href="#posts">Blog</a> </li>
                 </ul>
 
                 <div class="header__search">
@@ -89,7 +88,7 @@
     <main>
 
         <!-- Section About-->
-        <section class="about none">
+        <section class="about" id="about">
 
             <div class="container">
 
@@ -129,7 +128,7 @@
         <!-- // Section About-->
         
         <!-- Section Comments-->
-        <section class="comments none">
+        <section class="comments" id="comments">
 
             <div class="comments__overflow"></div>
 
@@ -157,11 +156,11 @@
         <!-- // Section Comments-->
         
         <!-- Section Services-->
-        <section class="services none">
+        <section class="services">
             
             <div class="container">
 
-                <div class="services_wrapper">
+                <div class="services_wrapper"  id="services">
                     
                     <div class="services__main-title">
                         Awesome theme for Medical, Hospital and Health Websites
@@ -267,7 +266,7 @@
         <!-- // Section Services-->
 
         <!-- Section Visual-->
-        <section class="visual none">
+        <section class="visual" id="visual">
 
             <div class="comments__overflow"></div>
 
@@ -306,7 +305,7 @@
 
             <div class="container">
 
-                <div class="doctors__title-wrap">
+                <div class="doctors__title-wrap" id="doctors">
                     <h2 class="main-title main-title--doctors">Our Doctor Panel</h2>
                 </div>
 
@@ -378,7 +377,7 @@
 
             <div class="container">
 
-                <div class="packageService__wrap">
+                <div class="packageService__wrap" id="packageService">
 
                     <div class="packageService__title-wrap">
 
@@ -411,7 +410,7 @@
                                 </p>
                             </div>
 
-                            <a class="packageService__list-link">
+                            <a href="#" class="packageService__list-link">
                                 Read More
                             </a>
 
@@ -434,7 +433,7 @@
                                 </p>
                             </div>
 
-                            <a class="packageService__list-link">
+                            <a href="#" class="packageService__list-link">
                                 Read More
                             </a>
 
@@ -457,7 +456,7 @@
                                 </p>
                             </div>
 
-                            <a class="packageService__list-link">
+                            <a href="#" class="packageService__list-link">
                                 Read More
                             </a>
 
@@ -472,11 +471,158 @@
         </section>
         <!-- // Section packageService-->
 
+        <!-- Section posts-->
+        <section class="posts">
+            
+            <div class="container">
+
+                <div class="posts__title-wrap" id="posts">
+                    <h2 class="main-title">Latest Post</h2>
+                </div>
+
+                <ul class="posts__list">
+
+                    <!--Post 1-->
+                    <li class="posts__list-item">
+
+                        <div class="posts__list-header">
+                            <img src="./img/posts/post.jpg" alt="Hospital">
+                        </div>
+
+                        <div class="posts__list-main">
+
+                            <h3 class="posts__list-title">
+                                We believe in bringing the most modern 
+                                techniques and delivering 
+                                extraordinary care to ailing population with
+                            </h3>
+    
+                            <div class="posts__list-desc">
+    
+                                <p>
+                                    The highest levels of ethics and standards. We are committed 
+                                    to continuing medical education, through our 
+                                    fellowship and DNB programs.
+                                </p>
+                                <p>
+                                    We organize atleast one conference a month and support 
+                                    research foundation for continued advancement.
+                                </p>
+    
+                            </div>
+
+                        </div>
+                       
+                        <div class="posts__list-footer">
+                            <div class="posts__list-info-date">
+                                September 8, 2014
+                            </div>
+
+                            <div class="posts__list-info-comments">
+                                0 comments
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <!--Post 2-->
+                    <li class="posts__list-item">
+
+                        <div class="posts__list-header">
+                            <img src="./img/posts/post.jpg" alt="Hospital">
+                        </div>
+
+                        <div class="posts__list-main">
+
+                            <h3 class="posts__list-title">
+                                We believe in bringing the most modern 
+                                techniques and delivering 
+                                extraordinary care to ailing population with
+                            </h3>
+    
+                            <div class="posts__list-desc">
+    
+                                <p>
+                                    The highest levels of ethics and standards. We are committed 
+                                    to continuing medical education, through our 
+                                    fellowship and DNB programs.
+                                </p>
+                                <p>
+                                    We organize atleast one conference a month and support 
+                                    research foundation for continued advancement.
+                                </p>
+    
+                            </div>
+
+                        </div>
+                       
+                        <div class="posts__list-footer">
+                            <div class="posts__list-info-date">
+                                September 8, 2014
+                            </div>
+
+                            <div class="posts__list-info-comments">
+                                0 comments
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <!--Post 3-->
+                    <li class="posts__list-item">
+
+                        <div class="posts__list-header">
+                            <img src="./img/posts/post.jpg" alt="Hospital">
+                        </div>
+
+                        <div class="posts__list-main">
+
+                            <h3 class="posts__list-title">
+                                We believe in bringing the most modern 
+                                techniques and delivering 
+                                extraordinary care to ailing population with
+                            </h3>
+    
+                            <div class="posts__list-desc">
+    
+                                <p>
+                                    The highest levels of ethics and standards. We are committed 
+                                    to continuing medical education, through our 
+                                    fellowship and DNB programs.
+                                </p>
+                                <p>
+                                    We organize atleast one conference a month and support 
+                                    research foundation for continued advancement.
+                                </p>
+    
+                            </div>
+
+                        </div>
+                       
+                        <div class="posts__list-footer">
+                            <div class="posts__list-info-date">
+                                September 8, 2014
+                            </div>
+
+                            <div class="posts__list-info-comments">
+                                0 comments
+                            </div>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+        <!-- // Section posts-->
+
     </main>
     <!-- // Main -->
 
     <!-- Footer -->
-    <footer>
+    <footer class="footer">
 
     </footer>
     <!-- // Footer -->

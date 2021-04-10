@@ -286,6 +286,9 @@ button {
 .header__menu-item a:visited {
   color: white;
 }
+.header__menu-item a:hover {
+  color: rgba(255, 255, 255, 0.685);
+}
 .header__search {
   display: none;
 }
@@ -529,12 +532,18 @@ button {
   font-size: 19px;
   font-weight: 500;
   color: #0078ff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 @media (min-width: 768px) {
   .header__info-sign {
     margin-right: 55px;
     margin-bottom: 0;
   }
+}
+.header__info-sign:hover {
+  -webkit-box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.753);
+          box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.753);
 }
 .header__info-learn {
   padding-left: 31px;
@@ -550,6 +559,12 @@ button {
   font-size: 19px;
   font-weight: 500;
   color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.header__info-learn:hover {
+  -webkit-box-shadow: 0 0 10px 0 #16c5ffbb;
+          box-shadow: 0 0 10px 0 #16c5ffbb;
 }
 .header__img_wrap {
   width: 43%;
@@ -696,9 +711,15 @@ button {
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
   color: black;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 .about__button:visited {
   color: black;
+}
+.about__button:hover {
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.664);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.664);
 }
 .about__img-wrap {
   width: 43%;
@@ -741,7 +762,7 @@ button {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   bottom: 0;
-  background-image: url("../../img/About/doctors.png");
+  background-image: url("../img/About/doctors.png");
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1227,6 +1248,8 @@ button {
 .doctors__list-item {
   max-width: 100%;
   margin-bottom: 75px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 .doctors__list-item:last-child {
   margin-bottom: 0;
@@ -1241,6 +1264,10 @@ button {
     max-width: 29%;
     margin-bottom: 0;
   }
+}
+.doctors__list-item:hover {
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.479);
+          box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.479);
 }
 .doctors__list-img {
   overflow: hidden;
@@ -1470,6 +1497,11 @@ button {
   background-color: #0050d5;
   font-size: 16px;
   color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.packageService__list-link:hover {
+  background-color: #0052d5d2;
 }
 .packageService__title {
   margin-bottom: 20px;
@@ -1805,8 +1837,15 @@ button {
   color: #bababa;
   font-size: 30px;
 }
+.footer__social-list-item a {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
 .footer__social-list-item a:visited {
   color: #bababa;
+}
+.footer__social-list-item a:hover {
+  color: white;
 }
 .footer__social-list-item:last-child {
   margin-right: 0;

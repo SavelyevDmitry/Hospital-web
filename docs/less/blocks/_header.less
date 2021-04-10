@@ -181,6 +181,10 @@
         color: white;
     }
 
+    a:hover{
+        color: rgba(255, 255, 255, 0.685);
+    }
+
 }
 
 .header__search{
@@ -425,10 +429,16 @@
     font-weight: 500;
     color: #0078ff;
 
+    transition: 0.3s;
+
     // Платншет
     @media (min-width: 768px){
         margin-right: 55px;
         margin-bottom: 0;
+    }
+
+    &:hover{
+        box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.753);
     }
 }
 
@@ -449,6 +459,12 @@
     font-size: 19px;
     font-weight: 500;
     color: white;
+
+    transition: 0.3s;
+
+    &:hover{
+        box-shadow: 0 0 10px 0 #16c5ffbb;
+    }
 }
 
 .header__img_wrap{
